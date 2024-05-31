@@ -159,7 +159,7 @@ describe('lightbox', () => {
       // Comment 3
       cy.dataCy('comment-input').clear().type('Damn!');
       cy.dataCy('comment-publish').click();
-
+      //
       // Delete Comment 2
       //Scy.dataCy('delete-comment-svg-1').click();
       //cy.dataCy('comment-body-1').should('not.exist', 'Magic!');
